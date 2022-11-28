@@ -23,8 +23,8 @@ fn main() {
         .add_plugins(DefaultPlugins.set(WindowPlugin {
             window: WindowDescriptor {
                 title: "Rusty Snake".to_string(),
-                width: 500.0,
-                height: 500.0,
+                width: 600.0,
+                height: 600.0,
                 resizable: false,
                 ..default()
             },
